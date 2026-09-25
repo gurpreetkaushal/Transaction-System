@@ -1,0 +1,135 @@
+#div_2{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgb(7, 23, 31), rgb(143, 183, 232));
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+}
+.m_head{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table , td, tr{
+    border-collapse: collapse;
+    border: 2px solid white;
+    padding: 5px;
+}
+table{
+    width: 550px;
+    font-size: 25px;
+    color: white;
+}
+#user{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#recieve{
+    border-radius: 50%;
+    border: 2px solid white;
+    display:none;
+}
+#verified{
+    display: none;
+}
+#verify{
+    margin-top: 30px;
+    padding:10px;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgb(20, 106, 38), rgb(79, 247, 129));
+    color: white;
+}
+#verify:hover{
+    transform:scale(1.1);
+}
+#div_1{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(7, 23, 31), rgb(143, 183, 232));
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#m_name{
+    padding: 10px;
+}
+#m{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 50px;
+    color: white;
+}
+#n{
+    margin-top: 0;
+    font-size: 35px;
+    color: white;
+}
+#theme{
+    padding: 20px;
+}
+#theme_butt{
+    font-size: 20px;
+    padding: 10px;
+    background:  linear-gradient(90deg, rgb(7, 101, 82), rgb(160, 217, 252));
+    color: white;
+}
+#div_3{
+    display: flex;
+    background: linear-gradient(90deg, rgb(7, 23, 31), rgb(143, 183, 232));
+    color: white;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 30px;
+    display: none;
+}
+#div_3 h1{
+    font-size: 35px;
+    text-align: center;
+}
+#div_3 h3{
+    font-size: 30px;
+}
+#trans{
+    background: linear-gradient(90deg, rgb(7, 23, 31), rgb(143, 183, 232));
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    display: none;
+}
+#div_3 label{
+    font-size: 25px;
+}
+#proceed{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgb(15, 96, 24), rgb(105, 250, 108));
+    color: white;
+}
+#div_4{
+    background: linear-gradient(90deg, rgb(7, 23, 31), rgb(143, 183, 232));
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+#div_4 h1{
+    font-size: 40px;
+}
+#rec_tab{
+    width: 900px;
+}
+#nothing{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#download{
+    background: linear-gradient(90deg, rgb(7, 7, 7), rgb(124, 124, 124));
+    color: white;
+    padding:10px;
+    font-size: 20px;
+}

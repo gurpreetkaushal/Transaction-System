@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Transaction</title>
+        <link rel="stylesheet" href="transCSS.css">
+    </head>
+    <body>
+        <div id="div_1">
+            <div id="m_name">
+                <p id="m"><b>💰SmartPay System🫧</b></p>
+                <span id="n">Digital Payment & Fund Transfer System</span>
+            </div>
+            <div id="theme">
+                <button type="button" id="theme_butt" onclick="changeTheme()">Change Theme🪄</button>
+            </div>
+        </div>
+        <div id="div_2">
+            <div>
+                <h1 class="m_head"><b>User's Details</b></h1>
+                <hr>
+                <center><img id="user" src="pic.jpeg" width="300px"></center><br><br>
+                <table>
+                    <tr>
+                        <td>Full Name:</td>
+                        <td>Gurpreet Kaushal</td>
+                    </tr>
+                    <tr>
+                        <td>Email ID:</td>
+                        <td>gurpreetkaushal@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Bank Name:</td>
+                        <td>HDFC Bank</td>
+                    </tr>
+                    <tr>
+                        <td>Account Number:</td>
+                        <td>147147</td>
+                    </tr>
+                    <tr>
+                        <td>Available Balance:</td>
+                        <td>$ 90500</td>
+                    </tr>
+                    <tr>
+                        <td>IFSC Code:</td>
+                        <td>14474414</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><center>Verified Account✅</center></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h1 class="m_head"><b>Reciever's Details</b></h1>
+                <hr>
+                <center><img id="recieve" src="frok.jpeg" width="300px" height="350px"></center><br><br>
+                <table>
+                    <tr>
+                        <td>Reciever's Full Name:</td>
+                        <td><input type="text" id="fullName"></td>
+                    </tr>
+                    <tr>
+                        <td>Bank Name:</td>
+                        <td><input type="text" id="bank"></td>
+                    </tr>
+                    <tr>
+                        <td>Email ID:</td>
+                        <td><input type="text" id="mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Account Number:</td>
+                        <td><input type="number" id="num"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Account Number:</td>
+                        <td><input type="number" id="con"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><center><span id="verified">Verified Account✅</span></center></td>
+                    </tr>
+                </table>
+                <center><button type="button" id="verify" onclick="verify()">Check Verification</button></center>
+            </div>
+        </div>
+        <h1 id="trans">Transaction</h1>
+        <div id="div_3">
+            <div>
+                <h1>Payment Methods</h1>
+                <hr>
+                <h3>🪎Choose any payment method:</h3>
+                <input type="radio" id="tran" name="payment" onclick="changeMethod()" checked>
+                <label for="tran">Bank Transfer</label><br><br>
+                <input type="radio" id="upi" name="payment" onclick="changeMethod()">
+                <label for="upi">UPI</label><br><br>
+                <input type="radio" id="wall" name="payment" onclick="changeMethod()">
+                <label for="wall">Wallet</label>
+            </div>
+            <div>
+                <h1>Payment Details</h1>
+                <hr>
+                <div id="show_bank">
+                    <h3>🪎Enter the required details:</h3>
+                    <label for="code" id="change">Enter IFSC Code:</label>
+                    <input type="number" id="code"><br><br>
+                    <label for="amount">Enter Amount: $</label>
+                    <input type="number" id="amount"><br>
+                    <center><button type="button" id="proceed" onclick="proceed()">Proceed</button></center>
+                </div>
+            </div>
+        </div>
+        <div id="div_4">
+            <center>
+                <h1>Transaction Successful✅</h1>
+                <hr>
+                <table id="rec_tab">
+                    <tr>
+                        <td colspan="2"><center>Receipt</center></td>
+                    </tr>
+                    <tr>
+                        <td>Sender's Name:</td>
+                        <td>Gurpreet Kaushal</td>
+                    </tr>
+                    <tr>
+                        <td>Reciever's Name:</td>
+                        <td id="rec_name"></td>
+                    </tr>
+                    <tr>
+                        <td>Amount:</td>
+                        <td id="rec_a"></td>
+                    </tr>
+                    <tr>
+                        <td>Payment Method:</td>
+                        <td id="met"></td>
+                    </tr>
+                    <tr>
+                        <td>Date:</td>
+                        <td>18 June 2025</td>
+                    </tr>
+                    <tr>
+                        <td>Status:</td>
+                        <td>Success</td>
+                    </tr>
+                </table>
+                <div id="nothing">
+                    <p >Current Amount: $<span id="curr"></span></p>
+                    <button type="button" id="download" onclick="download()">Download Receipt</button>
+                </table>
+                </div>
+            </center>
+        </div>
+        <script src="transJS.js"></script>
+    </body>
+</html>

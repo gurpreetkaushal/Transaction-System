@@ -1,0 +1,32 @@
+#main{
+    margin-top: 30px;
+    background:  linear-gradient(100deg, rgb(24, 76, 106), rgb(162, 213, 245));
+    width:700px;
+    color: white;
+    padding: 20px;
+}
+body{
+    background-color: black;
+}
+#head{
+    font-size: 60px;
+}
+#wel{
+    font-size: 40px;
+}
+.c{
+    font-size: 35px;
+}
+#proceed{
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background:  linear-gradient(100deg, rgb(2, 79, 23), rgb(119, 244, 148));
+}
+#code{
+    font-size: 30px;
+}
+#name{
+    font-size: 30px;
+}
